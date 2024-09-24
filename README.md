@@ -1,6 +1,8 @@
 # unocss-preset-rem-to-vw
   Convert all rem to vw in utils
 
+[![NPM version](https://img.shields.io/badge/npm-0.0.0_beta.1-brightgreen)](https://github.com/any-u/unocss-preset-rem-to-vw)
+
 
 ## Install
 ```bash
