@@ -2,7 +2,7 @@ import { definePreset } from '@unocss/core'
 
 const remRE = /(-?[.\d]+)rem/g
 
-export interface RemToPxOptions {
+export interface RemToVwOptions {
   /**
    * 1rem = n px
    * @default 16
@@ -22,7 +22,7 @@ export interface RemToPxOptions {
 /**
  * convert rem to vw
  */
-export const presetRemToVw = definePreset((options: RemToPxOptions = {}) => {
+export const presetRemToVw = definePreset((options: RemToVwOptions = {}) => {
   const {
     baseFontSize = 16,
     viewportWidth = 375,
